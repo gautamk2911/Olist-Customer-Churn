@@ -15,10 +15,10 @@ A **Logistic Regression model (PySpark MLlib)** is trained to classify whether a
 
 The following Olist datasets were used:
 
-* `customers_dataset.csv`
-* `orders_dataset.csv`
-* `order_items_dataset.csv`
-* `order_payments_dataset.csv`
+* `olist_customers_dataset.csv`
+* `olist_orders_dataset.csv`
+* `olist_order_items_dataset.csv`
+* `olist_order_payments_dataset.csv`
 * `final_customer_features.csv` (engineered features)
 
 These were loaded and processed using **PySpark** and **Spark SQL**.
