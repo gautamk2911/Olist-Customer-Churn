@@ -90,25 +90,7 @@ Metrics used:
 
 ---
 
-## **📁 Repository Structure**
 
-```
-├── data/
-│   ├── customers.csv
-│   ├── orders.csv
-│   ├── order_items.csv
-│   ├── order_payments.csv
-│   └── final_customer_features.csv
-├── notebooks/
-│   └── churn_analysis_pyspark.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── evaluation.py
-├── README.md
-└── requirements.txt
-```
 
 ---
 
@@ -119,37 +101,3 @@ Metrics used:
 * Payment value patterns also influence customer retention
 
 ---
-
-## **🚀 How to Run the Project**
-
-1. Install requirements:
-
-```
-pip install -r requirements.txt
-```
-
-2. Start a PySpark session:
-
-```
-pyspark
-```
-
-3. Run the main pipeline:
-
-```
-python src/model_training.py
-```
-
----
-
-## **📌 Future Improvements**
-
-* Try Gradient Boosting (XGBoost-LightGBM via Pandas API on Spark)
-* Add RFM (Recency–Frequency–Monetary) scoring
-* Deploy model using Flask or Streamlit
-
----
-
-## **📧 Contact**
-
-**Gautam Krishna**
